@@ -1,0 +1,28 @@
+@relation dinning_pattern.arff
+
+@attribute day {mon,tue,wed,thu,fri}
+@attribute dinning_place {onsite,takeaway}
+@attribute eating_time numeric
+@attribute destination {Hungry Jack's,All Thai restaurant,Tao House Bistro,Solo Pasta and Pizza,Komatsu Japanese Cuisine,Blue Eye Seafood Restaurant}
+
+@data
+mon,onsite,20,Hungry Jack's
+tue,takeaway,21,All Thai restaurant
+wed,takeaway,19,Tao House Bistro
+thu,takeaway,19,Solo Pasta and Pizza
+fri,takeaway,19,Solo Pasta and Pizza
+mon,takeaway,20,Hungry Jack's
+tue,takeaway,19,Tao House Bistro
+wed,takeaway,18,All Thai restaurant
+thu,takeaway,18,Solo Pasta and Pizza
+fri,takeaway,19,Komatsu Japanese Cuisine
+mon,takeaway,21,Hungry Jack's
+tue,onsite,18,Komatsu Japanese Cuisine
+wed,onsite,19,Blue Eye Seafood Restaurant
+thu,takeaway,19,Solo Pasta and Pizza
+fri,takeaway,19,Komatsu Japanese Cuisine
+mon,takeaway,21,Hungry Jack's
+tue,onsite,19,Blue Eye Seafood Restaurant
+wed,takeaway,21,Hungry Jack's
+thu,takeaway,18,Solo Pasta and Pizza
+fri,takeaway,19,Komatsu Japanese Cuisine
